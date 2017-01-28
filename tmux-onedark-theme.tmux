@@ -1,12 +1,12 @@
 #!/bin/bash
-onedark_black="#282c34"
-onedark_blue="#61afef"
-onedark_yellow="#e5c07b"
-onedark_red="#e06c75"
-onedark_white="#aab2bf"
-onedark_green="#98c379"
-onedark_visual_grey="#3e4452"
-onedark_comment_grey="#5c6370"
+onedark_black=235
+onedark_blue=39
+onedark_yellow=180
+onedark_red=204
+onedark_white=145
+onedark_green=114
+onedark_visual_grey=237
+onedark_comment_grey=59
 
 get_widgets() {
    echo "$(tmux show-option -gqv "@onedark_widgets")"
